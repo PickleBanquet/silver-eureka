@@ -1,3 +1,5 @@
+@import "bootstrap";
+
 require_relative 'boot'
 
 require 'rails/all'
@@ -21,6 +23,6 @@ module Splurty
 
     # Precompile additional assets
     config.assets.precompile += %w( .svg .eot .woff .ttf )
-    
+
   end
 end
