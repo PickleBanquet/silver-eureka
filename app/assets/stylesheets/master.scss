@@ -4,6 +4,10 @@
   clear: both;
 }
 
+body {
+    background: image_url('bg.png');
+}
+
 .circle {
     font-weight: bold;
     font-style: italic;
@@ -44,6 +48,8 @@
 
 header {
   border-top: 9px solid #222222;
+  background: white;
+  margin-bottom: -17px;
 }
 
 hr {
@@ -64,6 +70,12 @@ h2 {
   color:#f84342;
   font-family: 'rubiklight_italic', sans-serif;
   font-size:20px;
+}
+
+.footer {
+  background: white;
+  border-top: 1px solid #dfdfdf;
+  padding-top: 15px;
 }
 
 .footer-blurb {
@@ -93,7 +105,7 @@ h2 {
 }
 
 h2 span {
-  color: #dddddd;
+  color: #f84342;
   font-family: 'rubiklight', sans-serif;
 }
 
